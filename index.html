@@ -7,8 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Drawing with mouse events</h1>
-    <canvas id="myPics" width="560" height="360"></canvas>
-    <script src="main.js"></script>
+    <script>
+        window.addEventListener('mousemove', function(e) {
+            console.log("X: " + e.offsetX)
+            location = "https://google.com";
+        })
+
+    </script>
 </body>
 </html>
